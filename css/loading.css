@@ -1,0 +1,17 @@
+.loading {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    /*    background: #0F4C81;*/
+    z-index: 1000;
+    /* 이 값으로 레이어의 위치를 조정합니다. */
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+
