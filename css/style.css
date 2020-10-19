@@ -444,8 +444,8 @@
     }
 
     header nav ul li a:hover {
-        color: rebeccapurple;
-        transition: 0.5s all;
+        color: crimson;
+        transition: 0.3s all;
     }
 
     header .navBtn {
