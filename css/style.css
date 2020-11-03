@@ -61,6 +61,9 @@ body {
 /*mobile*/
 @media only screen and (max-width:480px) {
 
+    body {
+        overflow-x: hidden;
+    }
 
     #hamburger-5.is-active {
         -webkit-transform: rotate(90deg);
@@ -275,16 +278,10 @@ body {
 
     section .Left {
         align-self: center;
-
-    }
-
-    section .Left img {
-        width: 100%;
-        cursor: pointer;
     }
 
     #page1 .Left img {
-        width: 80%;
+        width: 50%;
     }
 
 
@@ -399,6 +396,7 @@ body {
         background-color: #735d4b;
     }
 
+    
     #page1 .Right .about-skill {
         display: flex;
         flex-flow: row wrap;
