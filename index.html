@@ -8,10 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
     <!--    favicon-->
-    <!--    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">-->
+    <link rel="shortcut icon" href="img/b.svg" type="image/x-icon">
     <script src="js/jquery-3.5.1.js"></script>
     <link rel="stylesheet" href="css/default.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/darkmode.css">
     <!--    main-->
     <script src="js/main.js"></script>
     <!--    loading-->
@@ -31,24 +32,30 @@
 
     <!-- jump slider?-->
     <header>
-        <a class="logo" href="index.html"><img src="img/logoname.png" alt="logo"></a>
+
+        <!--       밝기별로 svg 따로 넣기?-->
+        <a class="logo" href="index.html"><img src="img/portfolioname.svg" alt="logo"></a>
         <!--           skip nav-->
         <nav>
             <ul class="anchors">
                 <!--           about    -->
-                <li><a href="#page1">about</a></li>
+                <li><a href="#page1">소개</a></li>
                 <!--             portfolio   -->
-                <li><a href="#page2">Portfolio1</a></li>
-                <li><a href="#page3">Portfolio2</a></li>
-                <li><a href="#page4">Portfolio3</a></li>
-                <li><a href="#page5">Portfolio4</a></li>
-                <li><a href="#page6">Portfolio5</a></li>
-                <!--                like footer-->
-                <li><a href="#page7">contact</a></li>
-                <!--                <li><a onclick="fnMove('7')" href="#page7">contact</a></li>-->
-                <!--                <li><button onclick="fnMove('7')">7</button></li>-->
+                <li class="pf-dmt-main"><a href="#page2">포트폴리오</a>
+                    <ul class="pf-dmt-sub">
+                        <li><a href="#page3">발렌시아가</a></li>
+                        <li><a href="#page4">stockmark</a></li>
+                        <li><a href="#page5">리디북스</a></li>
+                        <li><a href="#page6">넷플릭스</a></li>
+                        <li><a href="#page7">bb studio</a></li>
+                        <li>&nbsp;</li>
+                    </ul>
+                </li>
+
+                <li><a href="#page8">연락처</a></li>
             </ul>
         </nav>
+        <!--        모바일 BTN 메뉴-->
         <div class="navBtn">
             <div class="row cf">
                 <div class="three col">
@@ -62,46 +69,109 @@
         </div>
     </header>
 
+    <section id="page0">
+
+        <div class="introduce">
+            <a href="#page1" class="introduce_link">
+                <img src="img/introduce_page.svg" alt="name"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <!--                글자 추가-->
+                <div class="typing-txt">
+                    <ul>
+                        <!--                      하나당 1초 뻐기기 가능-->
+
+                        <li></li>
+                        <li></li>
+                        <li>의 포트폴리오에 어서오세요.</li>
+                        <li>&#60;br&#62; ⊕ \n</li>
+                        <li>onclick || scroll plz</li>
+                        <li>start???</li>
+                    </ul>
+                </div>
+                <div class="typing">
+                    <ul>
+
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <script src="js/typo.js"></script>
+            </a>
+        </div>
+
+    </section>
     <!--    first section:about?-->
     <section id="page1">
         <div class="container Left">
             <img src="img/2015.jpg" alt="myimage">
         </div>
         <div class="container Right">
-            <h3>Profile</h3>
+            <h3>소 개</h3>
             <p>배 유 정</p>
-            <p>2020.6~2020.11 연희직업전문학교 UX/UI 수료 <br>2019.2 인하공업전문대학 컴퓨터시스템과 졸업</p>
-            <h5>skill</h5>
-            <p>html <br> css3 <br> java script <br> 반응형 웹 <br> adobe illustrator <br> photoshop cc <br> <b>+</b> <br> jlpt n2 17.12~</p>
+            <p>연희전문학교 <br> 웹퍼블리셔과정 수료 <br><small>2020.6~2020.11</small> <br>인하공업전문대학 <br> 컴퓨터시스템과 졸업 <br><small>2016.3~ 2019.2</small> </p>
+            <h5>skill <br><br></h5>
+            <div class="about-skill">
+                <div class="skill-content">
+                    <img src="img/html.png" alt="skill-html">
+                    <p>★★☆</p>
+                </div>
+                <div class="skill-content">
+                    <img src="img/css.png" alt="skill-css">
+                    <p>★☆☆</p>
+                </div>
+                <div class="skill-content">
+                    <img src="img/js2.png" alt="skill-js">
+                    <p>★★☆</p>
+                </div>
+                <div class="skill-content">
+                    <img src="img/logo-jquery.png" alt="skill-jquery">
+                    <p>★☆☆</p>
+                </div>
+                <div class="skill-content">
+                    <img src="img/adobea.png" alt="Illustrator">
+                    <p>★☆☆</p>
+                </div>
+                <div class="skill-content">
+                    <img src="img/adobep.png" alt="photoshop">
+                    <p>★★☆</p>
+                </div>
+            </div>
         </div>
-
     </section>
     <!--portfolio -->
-    
-    <!--   필요할 경우 section 값을 중복 이용하거나ㅡ-->
-    <!--       1-->
+
+
     <section id="page2">
-        
+        <li><a href="#page3"><img src="img/sublinkimg/p1c_01.jpg" alt="page1">발렌시아가</a></li>
+        <li><a href="#page4"><img src="img/sublinkimg/p2c_01.jpg" alt="page2">stockmark</a></li>
+        <li><a href="#page5"><img src="img/sublinkimg/p3c_01.jpg" alt="page3">리디북스</a></li>
+        <li><a href="#page6"><img src="img/sublinkimg/p4c_01.jpg" alt="page4">넷플릭스</a></li>
+        <li><a href="#page7"><img src="img/sublinkimg/p5.jpg" alt="page5">bb studio</a></li>
+        <li class="fake"><img src="img/coming_soon.svg" alt="waiting" onclick="alert('기대해 주세요!');"></li>
+    </section>
+
+    <section id="page3">
+
         <div class="container Left">
-            <a href ="https://yujeong-bae.github.io/portfolio1/index.html" onclick="window.open(this.href, '', 'width=1440, height=800'); return false;">
+            <a href="https://yujeong-bae.github.io/portfolio1/index.html" onclick="window.open(this.href, '', 'width=1440, height=800'); return false;">
                 <p><b>넷플</b>릭스</p>
                 <img src="img/1.png" alt="netflix">
             </a>
         </div>
         <div class="container Right">
-            <h3>Renewal page design</h3>
-            <p>pageName: "Netflix"</p>
-            <h5>use color</h5>
-            <div class="colorDefine">
-                <div>
-                    <b>&#9679;</b>&#35;E3E4DE
-                </div>
-                <div>
-                    <b>&#9679;</b>&#35;000000
-                </div>
-            </div>
+            <h3>원페이지 리뉴얼: 넷플릭스</h3>
+            <p> <br>amazon prime와 같이 <br>서비스 컨텐츠를 노출하도록 변경</p>
+            <h5>HTML CSS</h5>
+            <h5>메인 컬러:&#35;f27b7c</h5>
+            <!--            plz-->
+            <p></p>
+            <h5>사이즈: 1280:768px <br>Pc page</h5>
 
-            <h5>viewport: Pc only</h5>
+            <!--            디자인 pdf 추가-->
+            <!--            <a href=""></a>-->
             <!--사이트 링크-->
             <a href="https://yujeong-bae.github.io/portfolio1/index.html" onclick="window.open(this.href, '', 'width=1440, height=800'); return false;">보기1</a>
             <a href="http://bb0831.dothome.co.kr/portfolio1/index.html" onclick="window.open(this.href, '', 'width=1440, height=800'); return false;">보기2</a>
@@ -109,8 +179,8 @@
         </div>
     </section>
     <!--    -->
-    <section id="page3">
-        
+    <section id="page4">
+
         <div class="container Left">
             <a href="https://yujeong-bae.github.io/portfolio2/index.html" onclick="window.open(this.href, '', 'width=1440, height=800'); return false;">
                 <p><b>발렌</b>시아가</p>
@@ -118,14 +188,11 @@
             </a>
         </div>
         <div class="container Right">
-            <h3>Renewal page design</h3>
-            <p>pageName: "BALENCIAGA"</p>
-            <h5>use color</h5>
-            <div class="colorDefine">
-                <div>
-                    <b>&#9679;</b>&#35;D9D9D9
-                </div>
-            </div>
+            <h3>페이지 리뉴얼: 발렌시아가</h3>
+            <p>원본페이지도 각졌길래 <br> 각진 컨셉을 유지하면서 <br> 메인페이지느낌을 추가 </p>
+            <p> css flex와 <br> 반응형 사이즈를 이용한 리디자인</p>
+            <h5> 메인 컬러:&#35;e8e8e8</h5>
+            <p></p>
             <h5>viewport: Pc mobile</h5>
             <!--사이트 링크-->
             <a href="https://yujeong-bae.github.io/portfolio2/index.html" onclick="window.open(this.href, '', 'width=1440, height=800'); return false;">보기1</a>
@@ -135,8 +202,8 @@
         </div>
     </section>
     <!--    -->
-    <section id="page4">
-        
+    <section id="page5">
+
         <div class="container Left">
             <a href="https://yujeong-bae.github.io/portfolio3/index.html" onclick="window.open(this.href, '', 'width=1440, height=800'); return false;">
                 <p><b>스톡</b>마크</p>
@@ -144,14 +211,11 @@
             </a>
         </div>
         <div class="container Right">
-            <h3>Renewal page design</h3>
-            <p>pageName: "Stockmark"</p>
-            <h5>use color</h5>
-            <div class="colorDefine">
-                <div>
-                    <b>&#9679;</b>&#35;027361
-                </div>
-            </div>
+            <h3>페이지 리뉴얼:스톡마크</h3>
+            <p>화면당 보이는 컨텐츠를 <br> 늘려본 시도</p>
+            <p> 붓스트랩4를 이용한 grid design</p>
+            <h5> 메인 컬러:&#35;67aba0</h5>
+
             <h5>viewport: Pc +mobile</h5>
             <!--사이트 링크-->
             <a href="https://yujeong-bae.github.io/portfolio3/index.html" onclick="window.open(this.href, '', 'width=1440, height=800'); return false;">보기1</a>
@@ -160,8 +224,8 @@
             <a href="http://bb0831.dothome.co.kr/portfolio3/index.html" onclick="window.open(this.href, '', 'width=375, height=812'); return false;">모바일2</a>
         </div>
     </section>
-    <section id="page5">
-        
+    <section id="page6">
+
         <div class="container Left">
             <a href="https://yujeong-bae.github.io/portfolio4/index.html" onclick="window.open(this.href, '', 'width=1440, height=800'); return false;">
                 <p><b>리디</b>북스</p>
@@ -169,15 +233,11 @@
             </a>
         </div>
         <div class="container Right">
-            <h3>Renewal page design</h3>
-            <p>pageName: "RIDI Books"</p>
-            <h5>use color</h5>
-            <div class="colorDefine">
-                <div>
-                    <b>&#9679;</b>&#35;3681FF
-                </div>
-            </div>
-
+            <h3>페이지 리뉴얼: 리디북스</h3>
+            <p>기존 페이지의 심플한 컨셉에 <br> 튀는 느낌의 애니메이션효과를 <br>첨가.</p>
+            <p> js를 활용한 드래그 애니메이션 구성</p>
+            <h5> 메인 컬러:&#35;86b3ff</h5>
+            <p></p>
             <h5>viewport: Pc only</h5>
             <!--사이트 링크-->
             <a href="https://yujeong-bae.github.io/portfolio4/index.html" onclick="window.open(this.href, '', 'width=1440, height=800'); return false;">보기1</a>
@@ -185,8 +245,7 @@
         </div>
     </section>
     <!--       -->
-    <section id="page6">
-        
+    <section id="page7">
         <div class="container Left">
             <a href="https://yujeong-bae.github.io/portfolio5/index.html" onclick="window.open(this.href, '', 'width=1440, height=800'); return false;">
                 <p><b>비비</b>스튜디오</p>
@@ -194,23 +253,14 @@
             </a>
         </div>
         <div class="container Right">
-            <h3>Clone page design</h3>
-            <p>pageName: "StudioBB"</p>
-            <h5>use color</h5>
-            <div class="colorDefine">
-                <div>
-                    <b>&#9679;</b>&#35;333333
-                </div>
-                <div>
-                    <b>&#9679;</b>&#35;FFFFFF
-                </div>
-            </div>
-
+            <h3>클론:BB studio</h3>
+            <p>서브컬쳐 컨셉페이지를 한번쯤 <br>만들어 보고 싶었습니다.</p>
+            <p>심플한 원페이지 구성</p>            
+            <h5>메인 컬러:&#35;837a71</h5>
             <h5>viewport: Pc only</h5>
             <!--사이트 링크-->
             <a href="https://yujeong-bae.github.io/portfolio5/index.html" onclick="window.open(this.href, '', 'width=1440, height=800'); return false;">보기1</a>
             <a href="http://bb0831.dothome.co.kr/portfolio5/index.html" onclick="window.open(this.href, '', 'width=1440, height=800'); return false;">보기2</a>
-
         </div>
     </section>
 
@@ -245,23 +295,20 @@
         <div class="particle"></div>
         <div class="particle"></div>
         <div class="particle"></div>
-    </div>
-    <div class="stop">X</div>
-    <script src="js/particle.js"></script>
-
+    </div>    
     <button class="dark_btn">
-        <p>ON!!</p>
+        <p>색반전</p>
     </button>
     <script src="js/night.js"></script>
 
 
-    <section id="page7">
+    <section id="page8">
         <div class="footer_wrap">
             <p>&#32;</p>
-            <h3>Contact</h3>
-            <p>Phone</p>
+            <h3>연락처</h3>
+            <p>전화번호</p>
             <p>+82 10 6878 2757 </p>
-            <p>mail</p>
+            <p>메일</p>
             <a href="mailto:yujungbae1@gmail.com">yujungbae1@gmail.com</a>
             <p> 본 페이지는 상업목적이 아닌 개인 포트폴리오임을 밝힙니다.</p>
             <p> Copyright© 2020 by yujeongBAE</p>
