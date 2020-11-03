@@ -268,14 +268,21 @@ body {
         flex-flow: column nowrap;
         justify-content: space-around;
         align-items: center;
+        margin-top: 100vh;
     }
 
     .container.active {
+        margin-top: 0vh;
         transition: 1s all;
     }
 
     section .Left {
         align-self: center;
+
+    }
+
+    section .Left img {
+        width: 100%;
     }
 
     #page1 .Left img {
