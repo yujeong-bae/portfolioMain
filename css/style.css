@@ -237,20 +237,20 @@ body {
 
 
 
-    section:nth-child(7) {
-        background-color: #f27b7c;
-    }
-
-    section:nth-child(8) {
+   section:nth-child(7) {
         background-color: #e8e8e8;
     }
 
-    section:nth-child(9) {
+    section:nth-child(8) {
         background-color: #67aba0;
     }
 
-    section:nth-child(10) {
+    section:nth-child(9) {
         background-color: #86b3ff;
+    }
+
+    section:nth-child(10) {
+        background-color: #f27b7c;
     }
 
     section:nth-child(11) {
@@ -661,19 +661,19 @@ body {
 
 
     section:nth-child(7) {
-        background-color: #f27b7c;
-    }
-
-    section:nth-child(8) {
         background-color: #e8e8e8;
     }
 
-    section:nth-child(9) {
+    section:nth-child(8) {
         background-color: #67aba0;
     }
 
-    section:nth-child(10) {
+    section:nth-child(9) {
         background-color: #86b3ff;
+    }
+
+    section:nth-child(10) {
+        background-color: #f27b7c;
     }
 
     section:nth-child(11) {
@@ -804,11 +804,13 @@ body {
     #page0 .introduce_link {
         text-align: center;
         color: aliceblue;
-        mix-blend-mode: difference;
         font-size: 2vw;
     }
 
-    #page0 .introduce_link img {}
+    #page0 .introduce_link img {
+        mix-blend-mode: difference;
+        
+    }
 
     #page1 .Right .about-skill {
         display: flex;

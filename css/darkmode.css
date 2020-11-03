@@ -9,6 +9,7 @@
     #page0.dark {
         background-image: url(../img/bnight.jpg);
     }
+
     header.dark {
         background-color: #262626;
     }
@@ -116,18 +117,45 @@
     }
 
     section:nth-child(5),
+    section:nth-child(6),
     section:nth-child(7),
     section:nth-child(9),
     section:nth-child(11) {
         background-color: #212121;
     }
 
-    section:nth-child(6),
+
     section:nth-child(8),
     section:nth-child(10) {
         background-color: #313131;
     }
 
+    section:nth-child(5).dark,
+    section:nth-child(6).dark {
+        background-color: #ded8d1;
+    }
+
+
+    section:nth-child(7).dark {
+        background-color: #e8e8e8;
+    }
+
+    section:nth-child(8).dark {
+        background-color: #67aba0;
+    }
+
+    section:nth-child(9).dark {
+        background-color: #86b3ff;
+    }
+
+    section:nth-child(10).dark {
+        background-color: #f27b7c;
+    }
+
+    section:nth-child(11).dark {
+        background-color: #837a71;
+
+    }
 
     section p {
         color: white;
@@ -197,7 +225,7 @@
 
 
     header.dark {
-        background-color: white;
+        background-color: transparent;
     }
 
     /*    update*/
@@ -211,12 +239,6 @@
         transition: 0.5s all;
     }
 
-    section:nth-child(5).dark,
-    section:nth-child(7).dark,
-    section:nth-child(9).dark,
-    section:nth-child(11).dark {
-        background-color: #a89d8f;
-    }
 
     section .Right h3.dark {
         color: #333;
