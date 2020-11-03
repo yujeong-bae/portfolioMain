@@ -41,9 +41,9 @@ $(document).ready(function () {
             if (filter.indexOf(navigator.platform.toLowerCase()) < 0) {
                 //mob
                 //    모바일 nav클릭시 꺼지기
-                $('.pf-dmt-sub li a').click(function(){
+                $('.pf-dmt-sub li a').click(function () {
                     $('header nav').stop().removeClass('active');
-                    
+
                 });
 
             } else {
@@ -58,6 +58,10 @@ $(document).ready(function () {
     }
     isMobile();
 
+
+    $('.fake').on('click', function (e) {
+        e.preventDefault();
+    });
 
     //햄버거
     $(".hamburger").click(function () {
