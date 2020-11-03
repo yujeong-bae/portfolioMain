@@ -286,7 +286,7 @@ body {
     }
 
     #page1 .Left img {
-        width: 50%;
+        width: 40%;
     }
 
 
@@ -428,7 +428,7 @@ body {
         height: 100vh;
         display: grid;
         grid-template-rows: repeat(3, 20vw);
-        grid-template-columns: repeat(2, 20vh);
+        grid-template-columns: repeat(2, 16vh);
         align-content: space-around;
         justify-content: space-around;
     }
@@ -496,7 +496,7 @@ body {
         display: none;
         line-height: 10vw;
         text-align: center;
-        font-size: 1vw;
+        font-size: 12px;
     }
 
     .up.active {
