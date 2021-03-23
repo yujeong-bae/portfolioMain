@@ -1,0 +1,298 @@
+@media screen and (min-width:481px) {
+
+    /*    darkmode*/
+    body.dark {
+        background-color: #151515;
+    }
+
+
+    #page0.dark {
+        background-image: url(../img/bnight.jpg);
+    }
+
+    header.dark {
+        background-color: #262626;
+    }
+
+    header .logo img.dark {
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+
+    header nav ul li a.dark:hover {
+        color: #ff9844;
+        transition: 0.5s all;
+    }
+
+    section:nth-child(5).dark,
+    section:nth-child(7).dark,
+    section:nth-child(9).dark,
+    section:nth-child(11).dark {
+        background-color: #212121;
+    }
+
+    section:nth-child(6).dark,
+    section:nth-child(8).dark,
+    section:nth-child(10).dark {
+        background-color: #313131;
+    }
+
+    section p.dark {
+        color: white;
+    }
+
+    section .Right h3.dark {
+        border-bottom: 1px solid #DEDEDE;
+    }
+
+    h3.dark,
+    h5.dark,
+    a.dark {
+        color: #dEdEdE;
+    }
+
+    header a.dark {
+        color: #ffc18f;
+    }
+
+
+    p.dark {
+        color: #5c5c5c;
+
+    }
+
+    .up.dark {
+        color: #dedede;
+        background-color: #ffc18f;
+    }
+
+    section .Left b.dark {
+        color: #dEdEdE;
+    }
+
+    section .Right a.dark {
+        background-color: #ff9844;
+        border: 0.1vw solid #5c5c5c;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .Right.dark {
+        border: 2.52mm solid #ff9844;
+
+    }
+
+    section .footer_wrap.dark {
+
+        border: 2.52mm solid #ff9844;
+    }
+
+    .dark_btn.dark {
+        border: 1px solid #535353;
+        outline: 0;
+    }
+
+}
+
+@media screen and (prefers-color-scheme: dark) {
+
+    /*     다크 모드에 사용 할 CSS를 입력하세요. */
+    body {
+        background-color: #151515;
+    }
+
+    header .logo img {
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+
+    header {
+        background-color: #262626;
+    }
+
+    header nav ul li a:hover {
+        color: #ff9844;
+        transition: 0.5s all;
+    }
+
+    section:nth-child(5),
+    section:nth-child(6),
+    section:nth-child(7),
+    section:nth-child(9),
+    section:nth-child(11) {
+        background-color: #212121;
+    }
+
+
+    section:nth-child(8),
+    section:nth-child(10) {
+        background-color: #313131;
+    }
+
+    section:nth-child(5).dark,
+    section:nth-child(6).dark {
+        background-color: #ded8d1;
+    }
+
+
+    section:nth-child(7).dark {
+        background-color: #e8e8e8;
+    }
+
+    section:nth-child(8).dark {
+        background-color: #67aba0;
+    }
+
+    section:nth-child(9).dark {
+        background-color: #86b3ff;
+    }
+
+    section:nth-child(10).dark {
+        background-color: #f27b7c;
+    }
+
+    section:nth-child(11).dark {
+        background-color: #837a71;
+
+    }
+
+    section p {
+        color: white;
+    }
+
+    section p.dark {
+        color: #333;
+    }
+
+    section .Right h3 {
+        border-bottom: 1px solid #DEDEDE;
+    }
+
+    h3,
+    h5,
+    a {
+        color: #dEdEdE;
+    }
+
+    header a {
+        color: #ffc18f;
+    }
+
+
+    p {
+        color: #5c5c5c;
+
+    }
+
+    .up {
+        color: #dedede;
+        background-color: #ffc18f;
+    }
+
+    section .Left b {
+        color: #dEdEdE;
+    }
+
+    section .Right a {
+        background-color: #ff9844;
+        border: 0.1vw solid #5c5c5c;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .Right {
+        border: 2.52mm solid #ff9844;
+
+    }
+
+    section .footer_wrap {
+
+        border: 2.52mm solid #ff9844;
+    }
+
+    .dark_btn {
+        border: 1px solid #535353;
+        outline: 0;
+    }
+
+
+    /*    light mode */
+    body.dark {
+        background-color: #ded8d1;
+    }
+
+
+    header.dark {
+        background-color: transparent;
+    }
+
+    /*    update*/
+    header .logo img.dark {
+        -webkit-filter: invert(0);
+        filter: invert(0);
+    }
+
+    header nav ul li a.dark:hover {
+        color: #e3e4de;
+        transition: 0.5s all;
+    }
+
+
+    section .Right h3.dark {
+        color: #333;
+        border-bottom: 1px solid #333;
+    }
+
+    h3.dark,
+    h5.dark,
+    a.dark {
+        color: #333;
+    }
+
+    header a.dark {
+        color: #333;
+    }
+
+
+    p.dark {
+        color: #555;
+
+    }
+
+    .up.dark {
+        color: #dedede;
+        background-color: #333;
+    }
+
+    section .Left b.dark {
+        color: #111;
+    }
+
+    section .Right a.dark {
+        background-color: #fff;
+        border: none;
+        /*
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+*/
+    }
+
+    .Right.dark {
+        border: 2.52mm solid #555;
+
+    }
+
+    section .footer_wrap.dark {
+
+        border: 2.52mm solid #555;
+    }
+
+    .dark_btn.dark {
+        border: 1px solid #535353;
+        outline: 0;
+    }
+
+}
